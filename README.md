@@ -1,6 +1,10 @@
 # Large-CSV-File-Splitter
 
-This is just simple Bash script to deal with large CSV Files.  It uses the advantage of built in Linux CLI command "split".  By default it creates multiple files from one large .csv file with each of files containing maximum of 5000 ( five thousand ) records.  You could modify it as you like.
+This is just simple Bash script to deal with large CSV Files.  It automatically splits large .csv file into smaller parts preserving the header ( first line data ).
+
+It uses the advantage of built in Linux CLI command "split".
+
+By default it creates multiple files from one large .csv file with each of files containing maximum of 5000 ( five thousand ) records.  You could modify this value as you like.
 
 ## How To Use
 
@@ -11,4 +15,4 @@ This is just simple Bash script to deal with large CSV Files.  It uses the advan
 
 ## Disclaimer
 
-This file was created initially to help __my personal need__ in processing big .csv file.  I don't guarantee it fits your need.
+This script was created initially to help __my personal need__ in processing big .csv file.  I don't guarantee it fits your need.
