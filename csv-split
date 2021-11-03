@@ -1,0 +1,6 @@
+#!/bin/bash
+
+header=$(head -n 1 $1)
+export header
+tail -n +2 $1 | split -l 5000 -d --additional-suffix=.csv \
+--filter='{ printf %s\\n "$header"; cat; } > $FILE' - $1_part_
