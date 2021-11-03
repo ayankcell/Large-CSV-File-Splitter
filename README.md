@@ -5,8 +5,8 @@ This is just simple Bash script to deal with large CSV Files.  It uses the advan
 ## How To Use
 
 - Simply download the __csv-split__ file.
-- Make the file executable by typing __chmod +x csv-split__ in your terminal
-- Then do the split by executing it __./csv-split large_file.csv __
+- Make the file executable by typing ```chmod +x csv-split``` in your terminal
+- Then do the split by executing it ```./csv-split large_file.csv```
 - Done!
 
 ## Disclaimer
